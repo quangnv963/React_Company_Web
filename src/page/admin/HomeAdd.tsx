@@ -1,7 +1,7 @@
 import MainAdd from "../../component/mainAdd";
-import { IProducts, INews } from "../../types";
+import { IProducts } from "../../types";
 
-const HomeAdd = ({data, dataN}:{ data:IProducts[], dataN:INews[]}) => {
+const HomeAdd = ({data}:{ data:IProducts[]}) => {
   return (
    <div>
      <MainAdd data={data}/>
