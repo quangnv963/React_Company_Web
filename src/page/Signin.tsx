@@ -1,5 +1,4 @@
 import { SubmitHandler, useForm } from "react-hook-form"
-import bcryptjs from "bcryptjs";
 import { useNavigate } from 'react-router-dom';
 import { IUsers } from "../types"
 

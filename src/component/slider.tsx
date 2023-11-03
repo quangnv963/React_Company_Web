@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { RxDotFilled } from 'react-icons/rx';
 
 function Slider() {
@@ -57,7 +57,9 @@ function Slider() {
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
             className='text-2xl cursor-pointer'
+            
           >
+            <p className='hidden'>{slide.url}</p>
            <RxDotFilled />
           </div>
         ))}

@@ -1,12 +1,9 @@
 
-import React, { useState, useEffect } from 'react';
+import  { useState } from 'react';
 import logo from '../assets/logo.jpg'
 import menu from '../assets/icons8-menu.svg'
 import close from '../assets/icons8-x-48.png'
 
-type HeaderProps = {
-  title: [];
-}
 
 const Header = () => {
   const [navBar, setNavBar] = useState(false)  

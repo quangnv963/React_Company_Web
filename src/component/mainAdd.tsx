@@ -1,14 +1,14 @@
-import { useNavigate, useLocation, Link } from 'react-router-dom';
-import {useState, useEffect} from "react"
+import { useNavigate, useLocation } from 'react-router-dom';
+import {useState} from "react"
 import dblogo from '../assets/dblogo.png'
 import ava from '../assets/avahacker.png'
 import down from '../assets/downlogo.png'
 import logo from '../assets/logo.jpg'
 import prologo from '../assets/logoproduct.png'
 import searchlogo from '../assets/icon_search.svg'
-import { IProducts, INews } from '../types';
+import { IProducts, } from '../types';
 
-const MainAdd = ({data, dataN}:{ data:IProducts[], dataN:INews[]}) => {
+const MainAdd = ({data}:{ data:IProducts[]}) => {
   const [btndata, Setbtndata ] = useState(false)
   const navigate = useNavigate();
   const location = useLocation();
