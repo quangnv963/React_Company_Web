@@ -4,7 +4,7 @@ import { IProducts, INews } from "../../types";
 const HomeAdd = ({data, dataN}:{ data:IProducts[], dataN:INews[]}) => {
   return (
    <div>
-     <MainAdd data={data} dataN={dataN}/>
+     <MainAdd data={data}/>
    </div>
   )
 };
